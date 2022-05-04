@@ -124,7 +124,7 @@ class _DropDownMultiSelectState extends State<DropDownMultiSelect> {
                         horizontal: 10,
                       ),
                     ),
-              isDense: true,
+              isDense: true,menuMaxHeight: 350,
               onChanged: widget.enabled ? (x) {} : null,
               value: widget.selectedValues.length > 0
                   ? widget.selectedValues[0]
